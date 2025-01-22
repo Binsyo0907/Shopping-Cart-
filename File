@@ -1,0 +1,48 @@
+shopping-cart/
+│
+├── src/
+│   ├── models/
+│   │   ├── Product.js
+│   │   ├── CartItem.js
+│   │   ├── ShoppingCart.js
+│   │   └── Order.js
+│   │
+│   ├── services/
+│   │   ├── CartManager.js
+│   │   ├── StorageService.js
+│   │   └── ApiService.js
+│   │
+│   ├── utils/
+│   │   ├── validators.js
+│   │   ├── formatters.js
+│   │   └── constants.js
+│   │
+│   └── index.js
+│
+├── tests/
+│   ├── models/
+│   │   ├── Product.test.js
+│   │   ├── CartItem.test.js
+│   │   ├── ShoppingCart.test.js
+│   │   └── Order.test.js
+│   │
+│   └── services/
+│       └── CartManager.test.js
+│
+├── public/
+│   ├── index.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── main.js
+│
+├── docs/
+│   ├── API.md
+│   └── USAGE.md
+│
+├── .gitignore
+├── .eslintrc.js
+├── .prettierrc
+├── package.json
+├── README.md
+└── LICENSE
